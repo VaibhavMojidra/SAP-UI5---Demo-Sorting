@@ -1,0 +1,22 @@
+<mvc:View
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Shell>
+		<App>
+			<pages>
+				<Page title="Sorting Demo">
+					<content>
+						<Panel
+							headerText="Sorting Demo"
+							width="auto"
+							class="sapUiResponsiveMargin">
+							<content>
+								<mvc:XMLView viewName="com.vaibhavmojidra.sortingdemo.view.InvoicesList"/>	
+							</content>
+						</Panel>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
